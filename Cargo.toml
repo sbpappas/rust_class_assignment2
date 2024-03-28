@@ -1,0 +1,11 @@
+workspace = { members = ["subproj_lib"] }
+[package]
+name = "class_assignment"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+subproj_lib = { path = "./subproj_lib" }
+
