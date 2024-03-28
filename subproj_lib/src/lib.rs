@@ -3,7 +3,7 @@ pub fn add(left: usize, right: usize) -> usize {
 }
 
 pub fn hello_world() -> String {
-	String::from("Hello, God's green world!")
+	String::from("Hello from the sub project")
 }
 
 #[cfg(test)]
