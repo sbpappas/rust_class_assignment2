@@ -1,0 +1,10 @@
+# rustfmt.toml
+
+# Maximum line width
+max_width = 100
+
+# Indentation size in spaces
+tab_spaces = 4
+
+# Specify newline style (choose one)
+newline_style = "Unix" 
